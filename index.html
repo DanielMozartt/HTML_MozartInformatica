@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href=" ./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <title> Mozart Inform&aacutetica</title>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/LGSL.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.youtube.com/mozartinformatica"><img src="./img/YT.png"></a></li>
+                        <li><a href="https://www.instagram.com/mozartinformatica"><img src="./img/IG.png"></a></li>
+                        <li><a href="https://api.whatsapp.com/message/3T3TEGMAJYCEM1?autoload=1&app_absent=0"><img
+                                    src="./img/WPP.png"></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </main>
+    </header>
+    <main class="column-100 sub-menu">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">INÍCIO</a>
+                    </li>
+                    <li>
+                        <a href="">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="">SERVIÇOS</a>
+                    </li>
+                    <li>
+                        <a href="">CONTATO</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="search">
+                <input placeholder="Procurar" type="text">
+            </div>
+        </div>
+    </main>
+    <div class="column-100">
+        <div class="slide">
+            <img src="./img/SLIDE3.jpg" />
+            <img src="./img/SLIDE4.jpg" />
+            <img src="./img/IMG_4190.gif" />
+        </div>
+        <div class="column-100">
+            <div class="content text-emphasis">
+                <h1>A SUA PROCURA POR <strong>CONFIANÇA E TRANSPARÊNCIA</strong> ACABOU.</h1>
+                <h2>DESFRUTE DE UMA NOVA EXPERIÊNCIA <strong>ATENCIOSA E DETALHISTA</strong>.</h2>
+                <div class="column-3">
+                    <img src="./img/COOLER.jpg">
+                    <h3>Limpeza feita em <strong>detalhes.</strong></h3>
+                    <p>Cada componente de seu Hardware como novo denovo.</p>
+                </div>
+                <div class="column-3">
+                    <img src="./img/SSD.png">
+                    <h3>Upgrades <strong>acertivos.</strong></h3>
+                    <p>Consultoria para sua configuração de hardware ser
+                        <br>otimizada ao <b></b>máximo possível e com economia.</b></br>
+                    </p>
+                </div>
+                <div class="column-3">
+                    <img src="./img/ORÇAMENTO.png">
+                    <h3><b>Diagnósticos e Orçamentos</b>
+                        <br>em tempo real com <strong>transparência.</strong></br>
+                    </h3>
+                    <p>Sua decisão em primeiro lugar.
+                        <br>Os serviços são previamente combinados via aprovação de orçamento.</br>
+                    </p>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="vid">
+            <div class="vid-980">
+                <iframe width="980" height="551.25" src="https://www.youtube.com/embed/UTiAk0Gn-do"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="980" height="551.25" src="https://www.youtube.com/embed/AEpoR8SOo7k"
+                    title="ATIVAR O WINDOWS 10 PERMANENTE SEM ATIVADOR COM A LICENÇA DO WINDOWS 7 - BRECHA DA MICROSOFT?"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <script>
+                    var tag = document.createElement('script');
+
+                    tag.src = "https://www.youtube.com/iframe_api";
+                    var firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+                    var player;
+                    function onYouTubeIframeAPIReady() {
+                        player = new YT.Player('player', {
+                            height: '360',
+                            width: '640',
+                            videoId: 'M7lc1UVf-VE',
+                            events: {
+                                'onReady': onPlayerReady,
+                                'onStateChange': onPlayerStateChange
+                            }
+                        });
+                    }
+                    function onPlayerReady(event) {
+                        event.target.playVideo();
+                    }
+
+                    var done = false;
+                    function onPlayerStateChange(event) {
+                        if (event.data == YT.PlayerState.PLAYING && !done) {
+                            setTimeout(stopVideo, 6000);
+                            done = true;
+                        }
+                    }
+                    function stopVideo() {
+                        player.stopVideo();
+                    }
+                </script>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
